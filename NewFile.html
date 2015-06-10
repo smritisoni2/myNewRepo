@@ -4,12 +4,43 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="NewFile.css">
 <title>Insert title here</title>
+
+<style type="text/css">
+h3{
+   color:red;
+    font-family:courier;
+    font-size:160%;
+}
+
+p {
+    border:5px black;
+   
+  padding: 30px;
+  margin: 20px;
+
+}
+
+
+p#p01 {
+    color: blue;
+}
+p.error {
+   color:red;
+}
+
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+a:visited {color:#000000; background-color:transparent; text-decoration:none}
+a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}
+</style>
 </head>
+
 <body >
 <h1 style="color:black;text-align:center">About</h1>
 <hr>
 <h2 style="font-family:verdana; font-size:160%">people</h2>
 <hr>
+<h3>Html Practice</h3>
 <p title="about"  style=" background-color:aqua; ">
 <img alt="" style="float: left;"  src="images/Carl_Nielsen_1917_crop.jpg">
 <b>Carl Nielsen (1865–1931) </b>was a Danish musician, <i>conductor </i>and violinist, widely recognized as his country's <strong>greatest composer</strong>. Brought up by <small>poor</small>, musically <em>talented </em>parents, he attended the Royal Conservatory in Copenhagen from <mark>1884 through 1886</mark>, and premiered his Op 1, Suite for Strings at the age of <sub>subscripted</sub> 23. The following year, he began a 16-year stint as a second violinist in the Royal Danish<del>blue</del> Orchestra under the <ins>color</ins>conductor Johan Svendsen, and later taught at the Royal Danish Academy of Music from 1916 until his death.<sup>superscripted</sup> While his symphonies, concertos and choral music are now internationally acclaimed, Nielsen's career and personal life were marked by many difficulties, often reflected in his music. The works he composed between 1897 and 1904 are sometimes ascribed to his "psychological" period, resulting mainly from a turbulent marriage with the sculptor Anne Marie Brodersen. Nielsen is especially noted for his six symphonies, his Wind Quintet and his concertos for violin, flute and clarinet. For many years, he appeared on the Danish hundred-kroner banknote.
@@ -23,6 +54,10 @@ WWF works in 100 countries and is supported by
 1.2 million members in the United States and
 close to 5 million globally.
 </blockquote>
+<p><a href="http://www.w3schools.com/html/">Visit  HTML tutorial</a>
+<hr>
+<a href="html_images.jsp">click here to see images</a>
+<p id="p01">I am different.</p>
 <hr>
 <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p><hr>
 <address>
@@ -32,8 +67,10 @@ Example.com<br>
 Box 564, Disneyland<br>
 USA
 </address>
-<hr style="color: black;">
 
+
+<hr style="color: black;">
+<p class="error">I am different (class)</p>
 <p>The HTML cite element defines the title of a work.</p>
 <p>Browsers usually display cite elements in italic.</p>
 
@@ -43,5 +80,21 @@ USA
 <div style="">
 <bdo dir="rtl">This line will be written from right to left</bdo>
 </div>
+
+<p><kbd>File | Open...</kbd></p>
+<samp>
+demo.example.com login: Apr 12 09:10:17
+Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
+</samp>
+
+<p><a href="http://www.w3schools.com/html/" target="_blank">click and see what happens!</a> </p>
+<code>
+var person = {firstName:"John", lastName:"Doe", age:50}
+</code>
+<p>Locked in a frame? <a href="http://www.w3schools.com/html/" target="_top">Click here!</a></p>
+<a href="html_images.jsp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0">
+</a>
+<p><var>E</var> = <var>m</var> <var>c</var><sup>2</sup></p>
 </body>
 </html>
